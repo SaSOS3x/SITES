@@ -124,4 +124,16 @@ header img{
     height: 91px;
     background-color: #A56492;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
+}
+.setion1__button1 h2{
+    font-weight: 500;
+    color: white;
+    font-size: 21pt;
+}
+.setion1__button1 img{
+    margin-right: 20px;
 }
