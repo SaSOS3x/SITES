@@ -39,6 +39,13 @@ body{
     display: flex;
     flex-direction: column;
 }
+a{
+    text-decoration: none;
+}
+a:hover #header__text{
+    color: red;
+    transition: 500ms;
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -136,4 +143,309 @@ header img{
 }
 .setion1__button1 img{
     margin-right: 20px;
+}
+.setion1__button1:hover{
+    filter: drop-shadow(0px 2px 22px #FFFFFF); 
+}
+
+
+
+.section2{
+    height: 779px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.section2__contRight h2{
+    font-weight: 700;
+    font-size: 15pt;
+    margin-bottom: 50px;
+}
+.section2__contRight p{
+    font-size: 15pt;
+    font-weight: 600;
+}
+.section2__button{
+    background-color: #A56492;
+    border-radius: 20px;
+    width: 480px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+#section2__buttonText{
+    color: white;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+
+
+.section3{
+    height: 872px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.section3__contRight h2{
+    font-size: 14pt;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.section3__contRight h4{
+    font-size: 15pt;
+    font-weight: 700;
+    color: #402D50;
+    margin-bottom: 20px;
+}
+.section3__contLeft h2{
+    font-size: 14pt;
+    font-weight: 700;
+}
+.section3__contLeft h4{
+    font-size: 15pt;
+    font-weight: 700;
+    color: #402D50;
+}
+.section3__contRight p{
+    font-size: 15pt;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.section3__contRight p:last-child{
+    font-size: 15pt;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.section3__buttonCont1{
+    display: flex;
+}
+
+
+.section3__button1{
+    width: 278px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+.section3__button1:last-child{
+    width: 278px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+
+#section3__buttonText{
+    font-weight: 400;
+    font-size: 18pt;
+    color: white;
+    text-align: center;
+    transition: 500ms;
+}
+.section3__buttonCont1{
+    margin-top: 60px;
+}
+
+
+.section3__button2:first-child{
+    width: 278px;
+    height: 91px;
+    background-color: #A9A6A8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+.section3__button2:last-child{
+    width: 278px;
+    height: 91px;
+    background-color: #A56492;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+.section3__button2 img{
+    margin-right: 10px;
+}
+a:hover #section3__buttonText{
+    color: red;
+    transition: 500ms;
+}
+a:hover #section2__buttonText{
+    color: red;
+    transition: 500ms;
+}
+.section3__button2:hover{
+    filter: drop-shadow(0px 2px 22px black); 
+}
+.section3__button1:hover{
+    filter: drop-shadow(0px 2px 22px black); 
+}
+
+
+.section4{
+    background-image: url('../img/Sec4_bg.png');
+    height: 1607px;
+}
+
+
+
+
+.section20{
+    height: 872px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.section20__contRight h2{
+    font-size: 30pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.section20__contRight h4{
+    font-size: 15pt;
+    font-weight: 700;
+    color: #402D50;
+    margin-bottom: 20px;
+}
+.section20__contLeft h2{
+    font-size: 14pt;
+    font-weight: 700;
+}
+.section20__contLeft h4{
+    font-size: 15pt;
+    font-weight: 700;
+    color: #402D50;
+}
+.section20__contRight p{
+    font-size: 15pt;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.section20__contRight p:last-child{
+    font-size: 15pt;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.section20__buttonCont1{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.section20__button1{
+    width: 278px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+.section20__button1:last-child{
+    width: 278px;
+    height: 60px;
+    background-color: #A9A6A8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+
+#section20__buttonText{
+    font-weight: 400;
+    font-size: 18pt;
+    color: white;
+    text-align: center;
+    transition: 500ms;
+}
+.section20__buttonCont2{
+    margin-top: 60px;
+    display: flex;
+}
+
+
+
+.section20__button2:first-child{
+    width: 278px;
+    height: 91px;
+    background-color: #A9A6A8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+.section20__button2:last-child{
+    width: 278px;
+    height: 91px;
+    background-color: #A56492;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+.section20__button2 img{
+    margin-right: 10px;
+}
+a:hover #section20__buttonText{
+    color: red;
+    transition: 500ms;
+}
+.section20__button2:hover{
+    filter: drop-shadow(0px 2px 22px black); 
+}
+.section20__button1:hover{
+    filter: drop-shadow(0px 2px 22px black); 
+}
+
+
+
+.section6{
+    height: 671px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section6__contLeft{
+    display: flex;
+    flex-direction: column;
+}
+.section6__contLeft h2{
+    font-size: 30pt;
+    font-weight: 700;
+    margin-bottom: 300px;
+}
+.section6__cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section6__cont1 img{
+    margin-right: 10px;
+}
+.section6__cont1 p{
+    font-size: 14pt;
+    font-weight: 600;
 }
