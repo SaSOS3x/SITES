@@ -300,7 +300,7 @@ a:hover #section2__buttonText{
 
 
 .section4{
-    background-image: url('../img/Sec4_bg.png');
+    background: url('../img/Sec4_bg.png') no-repeat center center / cover;
     height: 1607px;
 }
 
